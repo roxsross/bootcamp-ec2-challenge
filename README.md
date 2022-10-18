@@ -2,7 +2,7 @@
 
 ## TEXTO DE LA ACTIVIDAD
 
-La empresa EducacionIt les solicita como DevOps jr de la empresa, instalar en un ambiente productivo de una aplicacion nodejs sobre un servidor ubuntu en "AWS EC2" ya que piensan en una migración on-premise - cloud y necesitan escalar con alta disponibilidad, segun muchas reuniones con el equipo de arquitectos se define que la aplicacion debe estar sobre aws ec2 en una primera instancia.
+La empresa ZeroTech les solicita como DevOps Trainer/Jr instalar en un ambiente productivo una aplicacion nodejs sobre un servidor ubuntu en "AWS EC2" ya que piensan en cara de una migración on-premise - cloud y necesitan escalar con alta disponibilidad, luego de muchas reuniones con el equipo de arquitectos se define que la aplicacion debe estar sobre aws ec2 como primer paso porque su objetivo es dockererizar y desplegar en ECS o EKS.
 
 La instancia permite lanzar la aplicación desde la consola de AWS. La máquina virtual o instancia de Amazon debe prepararse con un sistema operativo Ubuntu, donde se instalará Nginer, Unico, Python, SQL y otras herramientas que necesitaremos. Con la AWS console, modificaremos la máquina para que el servidor nos comunique la máquina con el exterior por una IP pública para que pueda lanzarse en internet. 
 
