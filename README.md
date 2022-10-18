@@ -4,7 +4,7 @@
 
 La empresa ZeroTech les solicita como DevOps Trainer/Jr instalar en un ambiente productivo una aplicacion nodejs sobre un servidor ubuntu en "AWS EC2" ya que piensan en cara de una migración on-premise - cloud y necesitan escalar con alta disponibilidad, luego de muchas reuniones con el equipo de arquitectos se define que la aplicacion debe estar sobre aws ec2 como primer paso porque su objetivo es dockererizar y desplegar en ECS o EKS.
 
-La instancia permite lanzar la aplicación desde la consola de AWS. La máquina virtual o instancia de Amazon debe prepararse con un sistema operativo Ubuntu, donde se instalará Nginer, Unico, Python, SQL y otras herramientas que necesitaremos. Con la AWS console, modificaremos la máquina para que el servidor nos comunique la máquina con el exterior por una IP pública para que pueda lanzarse en internet. 
+La instancia permite lanzar la aplicación desde la consola de AWS. La máquina virtual o instancia de Amazon debe prepararse con un sistema operativo Ubuntu, donde se instalará Node , Nginx y otras herramientas que necesitaremos. Con la AWS console, modificaremos la máquina para que el servidor nos comunique la máquina con el exterior por una IP pública para que pueda lanzarse en internet. 
 
 ## PASOS PARA CREAR UNA INSTANCIA DE EC2 DESDE LA CONSOLA
 - En el panel de EC2 encontrarás unas ventanas con herramientas según tu necesidad. En este caso, utiliza la opción de «Instancias (en ejecución)» para crear una. Una vez cliques en esta opción, te aparecerá un panel de instancias donde aún no te aparecerá ninguna, si es tu primera vez lanzando una aplicacion nodejs.
