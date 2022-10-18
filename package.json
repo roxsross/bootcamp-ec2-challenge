@@ -1,0 +1,18 @@
+{
+  "name": "express_first_practice",
+  "version": "1.0.0",
+  "description": "Hello world page for Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --watch ./index.js"
+  },
+  "author": "roxsross",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

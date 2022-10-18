@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+:root {
+    --container-assets-margin-top: 170pt;
+    --keyframe-begin-margin-top: 220pt;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --container-assets-margin-top: 0;
+        --keyframe-begin-margin-top: 50pt;
+    }
+}
+
+@keyframes context-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes container-animation {
+    0% {
+        opacity: 0;
+        margin-top: var(--keyframe-begin-margin-top);
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: var(--container-assets-margin-top);
+    }
+}
+
+.Barlow {
+    font-family: "Barlow", sans-serif;
+}
+
+.body {
+    background: url('../images/chatBackground.svg');
+    background-size: 20%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-container {
+    height: 90vh;
+    display: flex;
+}
+
+.image {
+    width: 70%;
+    border-radius: 50%;
+    margin: 20pt auto 40pt auto;
+}
+
+.col-assets {
+    text-align: center;
+}
+
+.col-title-box {
+    display: flex;
+}
+
+.title-container {
+    align-self: center;
+}
+
+.title {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.short-description-box {
+    padding: 5pt;
+    background-color: rgba(37, 211, 102, 0.3);
+    border-radius: 5pt 5pt 0;
+    width: 90%;
+    margin: 0pt auto 20pt;
+}
+
+.short-description {
+    text-align: justify;
+}
+
+.container-assets {
+    align-self: center;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 5pt;
+    border-radius: 5pt;
+    animation: container-animation 1.5s;
+    margin-top: var(--container-assets-margin-top);
+    transition: all 0.5s;
+}
+
+.opacity-animation {
+    animation: context-opacity 5s;
+}
