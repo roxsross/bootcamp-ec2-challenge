@@ -51,26 +51,27 @@ En el panel para crear la instancia hay una serie de opciones con sistemas opera
 - localhost:8080
 
 ## ROUTES DE LA APLICACION
-
+```
 GET /
 GET /app
 GET /api/alta-consola
 POST /api/alta-consola
-GET /api/consulta-consol
+GET /api/consulta-consola
+```
 
 ## SOLUCION
 
-<img src="https://github.com/roxsross/express_first_practice/raw/master/doc/1.png" alt="1" />
+<img src="https://github.com/roxsross/bootcamp-ec2-challenge/raw/master/doc/1.png" alt="1" />
 
-<img src="https://github.com/roxsross/express_first_practice/raw/master/doc/2.png" alt="2" />
+<img src="https://github.com/roxsross/bootcamp-ec2-challenge/raw/master/doc/2.png" alt="2" />
 
-<img src="https://github.com/roxsross/express_first_practice/raw/master/doc/3.png" alt="3" />
+<img src="https://github.com/roxsross/bootcamp-ec2-challenge/raw/master/doc/3.png" alt="3" />
 
-<img src="https://github.com/roxsross/express_first_practice/raw/master/doc/4.png" alt="4" />
+<img src="https://github.com/roxsross/bootcamp-ec2-challenge/raw/master/doc/4.png" alt="4" />
 
-<img src="https://github.com/roxsross/express_first_practice/raw/master/doc/5.png" alt="5" />
+<img src="https://github.com/roxsross/bootcamp-ec2-challenge/raw/master/doc/5.png" alt="5" />
 
-<img src="https://github.com/roxsross/express_first_practice/raw/master/doc/6.png" alt="6" />
+<img src="https://github.com/roxsross/bootcamp-ec2-challenge/raw/master/doc/6.png" alt="6" />
 
 ## EVALUACIÓN
 
