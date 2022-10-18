@@ -42,7 +42,7 @@ En el panel para crear la instancia hay una serie de opciones con sistemas opera
 
 - Realicen todas las configuraciones que consideren necesario aplicando buenas practicas.
 
-- Diseñar un diagrama pequeño con los componentes usado en la arquitectura como referencia pueden seguir esta documentacion [doc](https://aws.amazon.com/es/getting-started/hands-on/deploy-nodejs-web-app/)
+- Diseñar un diagrama pequeño con los componentes usado en la arquitectura como referencia pueden seguir esta documentacion [Arquitectura AWS](https://aws.amazon.com/es/getting-started/hands-on/deploy-nodejs-web-app/)
 
 ## FUNCIONAMIENTO DE LA APLICACIÓN
 ### LOCAL   IT WORKS on My Machine
