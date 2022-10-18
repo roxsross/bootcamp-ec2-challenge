@@ -75,8 +75,11 @@ GET /api/consulta-consola
 
 ## EVALUACIÓN
 
-* Subir al repositorio imagenes de la solucíon y user-data
-usar esquema con Maskdown [Docu](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* Subir al repositorio "imagenes" "Pantallazos" de la solucíon 
+* Pasos de como funciona en la puesta de producción
+* Arquitectura
+* user-data
+* Para documentacion usar esquema con Maskdown [Docu](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## TIEMPO ESTIMADO PARA REALIZAR LA ACTIVIDAD
 
